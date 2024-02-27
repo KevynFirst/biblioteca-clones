@@ -1,0 +1,62 @@
+*, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-synthesis: none;                 
+  text-rendering: optimizeLegibility;   
+  -webkit-font-smoothing: antialiased;  
+  -webkit-text-size-adjust: 100%;       
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.html {
+    --bg-color: #d43b10;
+    --bg-color-light: #ffd4c8;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(255, 215, 97, 0.48);
+  }
+  
+  .css {
+    --bg-color: #0d63a0;
+    --bg-color-light: #cdeaff;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(188, 221, 255, 0.48);
+  }
+  
+  .js {
+    --bg-color: #e4ca0a;
+    --bg-color-light: #fff8c7;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(252, 255, 189, 0.762);
+  }
+  
+  .jquery {
+    --bg-color: #addcfd;
+    --bg-color-light: #ffe4e0;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(188, 221, 255, 0.48);
+  }
+
+  .sl {
+    --bg-color: #c5a8eb;
+    --bg-color-light: #ffe4e0;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(205, 152, 255, 0.48);
+  }
+
+  .boot {
+    --bg-color: #5718bd;
+    --bg-color-light: #ffe4e0;
+    --text-color-hover: #fff;
+    --box-shadow-color: rgba(197, 152, 255, 0.48);
+  }
+  

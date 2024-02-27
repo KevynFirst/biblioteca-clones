@@ -1,0 +1,245 @@
+header{
+    background-color:#1a1a1a   ;
+    padding:40px 0;
+    min-height: 700px;
+
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+.logo h2{
+    color: white;
+}
+
+header .logo h2> span{
+    color:#3f7aff;
+}
+
+
+
+.sobre-header{
+    margin-top:100px;
+    color:white;
+}
+
+.sobre-header h1{
+    margin:20px 0;
+    font-size: 50px;
+}
+
+.sobre-header h2{
+    color: #3f7aff;
+}
+
+header .sobre-header p> span{
+    color:#3f7aff;
+}
+
+section.trabalhos{
+    padding:40px 0;
+}
+
+section.trabalhos > h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.trabalho-single{
+    display: flex;
+    padding:40px 0;
+    flex-wrap: wrap;
+}
+
+.trabalho-img{
+    border-radius: 5px;
+    width:50%;
+    padding:50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.trabalho-img.spotify{
+    background-image: url('../images/preview-spotify.jpg') ;
+}
+
+.trabalho-img.facebook{
+    background-image: url('../images/preview-face.jpg') ;
+}
+.trabalho-img.prime{
+    background-image: url('../images/preview-prime.jpg') ;
+}
+
+.trabalho-img.instagram{
+    background-image: url('../images/preview-insta.jpg') ;
+}
+
+.trabalho-img img{
+    max-width: 100%;
+    width:100%;
+}
+
+.wraper-descricao{
+    width:50%;
+    padding:10px 20px;
+}
+
+.trabalho-descricao p> a{
+    color: #3f7aff;
+    font-weight: bold;
+}
+
+.box-depoimento{
+    padding:8 15px;
+    margin:40px 0;
+    border-radius:8px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+}
+
+.box-depoimento p{
+    color: #4d533c;
+    margin:10px 0;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.box-depoimento h2{
+    color:#1b1b1b;
+    font-size: 16px;
+}
+
+.box-depoimento h3{
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box-depoimento-user{display: flex;}
+
+.box-depoimento-user img{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+}
+
+.box-depoimento-nome{
+    padding:8 10px;
+}
+
+section.faq .center h2{
+        padding:20px 0;
+        border-top:1px solid #ccc;
+}
+
+section.faq .tecnologias{
+    display: flex;
+}
+
+.box-faq{
+    width: 220px;
+    height: 280px;
+    background: #fff;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-out;
+}
+
+.box-faq:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+                0 24px 46px var(--box-shadow-color);
+    background-color: var(--bg-color);
+  }
+  
+  .box-faq:hover p {
+    color: var(--text-color-hover);
+  }
+  
+  .box-faq:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  
+  .box-faq p {
+    color: #4c5656;
+    margin-top: 30px;
+    z-index: 1000;
+    transition: color 0.3s ease-out;
+    font-size: 15px;
+    font-weight: 300;
+    padding:10px 0;
+  }
+
+.box-faq h2{
+    font-size: 24px;
+    padding:10px 0;
+}
+
+.box-faq img{
+    width: 100%;
+    padding: 30px;
+}
+
+section.contato .center{
+    display: flex;
+    margin:40px auto;
+    width:100%;
+}
+
+section.contato > h2{
+    text-align: center;
+    color:#1b1b1b;
+    padding:40px 0;
+}
+
+
+footer{
+    text-align: center;
+    padding:10px 0;
+    background-color:#1a1a1a;
+    color:white;
+}
+
+footer .center{
+    margin-bottom:5px;
+}
+ .redes{
+    margin: 0 20px;
+ }
+
+@media screen and (max-width: 768px){
+
+    .sobre-header, .logo{
+        padding: 0 2%;
+    }
+
+    section.faq .tecnologias{
+        flex-wrap: wrap;
+    }
+
+    .box-faq{
+        width: 30%;
+        margin: 0 10px 10px;
+        margin-right: 0;
+    }
+    .trabalho-img,
+    .wraper-descricao{
+        width:100%;
+    }
+    .trabalho-single.verse{
+        flex-direction: column-reverse;
+    }
+}
